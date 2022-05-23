@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "model": "C200",
+            "maker": "Benz",
+            "price": 50.00,
+            "owner": "Nsh"
+        },
+        {
+            "id": "2",
+            "model": "C300",
+            "maker": "Benz",
+            "price": 70.00,
+            "owner": "bkw"
+        },
+        {
+            "id": "3",
+            "model": "E300",
+            "maker": "Benz",
+            "price": 85.00,
+            "owner": "lmj"
+        },
+        {
+            "id": "4",
+            "model": "S500",
+            "maker": "Benz",
+            "price": 100.00,
+            "owner": "lmj"
+        }
+    ]
+}

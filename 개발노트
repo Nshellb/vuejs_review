@@ -1,0 +1,71 @@
+05232022
+
+Vue.js 복습 개발
+
+
+1. 기본 셋팅
+vue 프로젝트 생성을 위한 Vue/cli 생성
+> npm install -g @vue/cli
+
+
+Vue.js 프로젝트 생성
+> vue create [프로젝트명]
+(vue create vuejs_review)
+
+Manually select features 로 진입
+Bable / PWA / Router / Vuex / Linter&Formatter 선택
+Router histotry X
+ESLint x
+package.json
+preset 설정 X
+
+
+프로젝트 생성 및 구동 확인
+> cd [프로젝트명]
+(cd vuejs_review)
+> npm run serve
+
+
+* css, fonts, images, js, vendor 디렉토리들은 public 아래에 적용 (정적 적용값들)
+* css 속성, js 태그 등 기타 부수적인 태그들은 /public/index.html에 적용
+
+
+2. Header / Footer 작업
+Header / Footer 생성
+/layouts/Header.vue 생성
+/layouts/Footer.vue 생성
+
+
+Header / Footer 작성
+component는 아래와 같은 틀아래 작성
+
+<template>
+</template>
+
+<script>
+export default {
+    
+}
+</script>
+
+
+Header / Footer 적용
+App.vue template 에 작성
+
+<div id="app">
+    <Header />
+    <router-view />
+    <Footer />
+</div>
+
+
+script 에 Header / Footer 를 import 하고
+export default 아래 components 에 Header / Footer 를 추가한다.
+
+
+
+3. v-for를 활용한 게시판 항목 만들기
+
+
+
+

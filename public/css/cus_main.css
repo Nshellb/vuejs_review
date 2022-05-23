@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+.header-wrap {
+    background-color: #2B2B2B;
+    height: 84px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+/* Footer 하단 적용
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: (footer높이);
+}
+footer{
+    height: (footer높이);
+    position : relative;
+    transform : translateY(-100%);
+} */
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+.footer-wrap {
+    background-color: #2B2B2B;
+    height: 90px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+    position : relative;
+    transform : translateY(-100%);
+}
